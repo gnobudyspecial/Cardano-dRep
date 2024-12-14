@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": "CIP119:image",
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": {
+    "@value": "blake2b-256"
+  },
+  "body": {
+    "doNotList": false,
+    "givenName": {
+      "@value": "Gnobudy Special "
+    },
+    "motivations": {
+      "@value": "Cardano is unique in being a community owned and run blockchain ecosystem. \nI share Charles's vision of how a transparently run, community owned ecosystem can earn the trust of the people around the world to operate national information infrastructure. I will vote on governance actions in a way that supports this vision and am open to sharing my reasoning both on X and with anyone who wishes to ask. "
+    },
+    "objectives": {
+      "@value": "I followed Charles's invitation to get involved in the Members based organisation. \nI engaged with the constitution drafting process and went to Argentina for the constitutional convention. \nThe constitution is not a perfect document. But I am sure that it fulfils the objective of being a viable constitution to protect our rights and freedoms to begin the process of running and using a community owned blockchain ecosystem. "
+    },
+    "paymentAddress": {
+      "@value": "addr1qydusjhp5mht4egyymlt5eru07a7rya7ylfdu7s6xjde49leddwhcruhl3z4j2q8a64gttlrxuqp6ca5n5uxg7askzssxlh86k"
+    },
+    "qualifications": {
+      "@value": "Many of the first wave of popular dReps are from existing projects and NFT communities. There may be governance actions in the future which would be favourable to existing interests but to the detriment of the longer term growth and goals of Cardano. In these cases I will vote in a way that supports the long term vision of what Cardano can become. "
+    },
+    "references": [
+      {
+        "@type": "Link",
+        "label": {
+          "@value": "Gnobudy Special on X"
+        },
+        "uri": {
+          "@value": "https://x.com/Gnobudyspecial"
+        }
+      }
+    ]
+  }
+}
