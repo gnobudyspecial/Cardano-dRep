@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "body": {
+    "comment": "I was a representative at the convention in Argentina, and I know that this constitution is a solid basis for moving the blockchain forward. Because ultimately that is what we all want, although we may differ in our views on how to get there,\n\nIt is my view that we need to build certain governance tools for voting , and once built, they accelerate the Cardano Blockchain Ecosystem to a whole new level. \n\nAs I write this, there is no community discussion about these tools, I don't know if anyone else in the ecosystem has even considered them, or realised just how revolutionary they will be to what Cardano can be, to what crypto is used for. \n\nI'm posting these ideas here for posterity, I hope you enjoy...\n\nI want to know if there are pyramids on Mars. \n\nImagine building a rocket ship to Mars. Its standing on the platform, and the countdown is ticking,\n“3, 2, 1, lift off!” The control room erupts in celebration, photos are taken, drinks are poured, a drunk Irishman does a tango. \n But the rocket ship remains sitting on the platform. \nNo-one seems remotely upset at this, quite the opposite, high-5’s and backslapping continue into the early hours.\nIn the following days, as the cheering slowly dies, pictures of the finished rocket ship sitting on the platform are broadcast around the world. Earnest conversations pop up about the formation of committees and working groups that will, in just a few more years, figure out how to carry the rocket ship to its final destination. \n\nNone of those conversations are about putting fuel in the engines. Most don’t realise that rocket ships need fuel. \nMany believe that using fuel would be dangerous.\nOthers believe that turning on the engines would be counter to the sacred principles of rocket ships. \n\nNo-one knows what fuel makes a decentralised voting system work, because no-one has ever seen one before. \n\nRight now, only governance actions about Cardano, using Ada, can be submitted. But soon we will build the tools so that any token on Cardano can hold their own votes. \n\nAnd every token on Cardano will hold lots and lots and lots of votes:\n Because the fuel that turns a quirky idea about governance into a global social phenomenon, is “Voting participation rewards”.  \n\nWe are going to build a set of tools that allows rewards to be given out to participants, selected at random, who take part in voting.\n\n Voting rewards turn every vote into a community event.  \n\nOnce every project and every meme-coin can host their own votes and give their own rewards based on participation in them, the questions they put up for a vote will range from the important to the, quite frankly, ridiculous. \n\nAnd thats ok, because what projects building on blockchains really want, are ways to engage with their audience. \nWhen ‘Voting rewards’ are combined with AdaMail, a way of sending email within your Cardano wallet, projects will have a unique set of community engagement tools unmatched in all of crypto. A set of tools that will keep people engaged with their Cardano wallet everyday. \n\nWhen put together, Cardano will be the go-to platform for new projects to launch, with a direct line to their community and an active, exciting reason to keep them engaged on a daily basis. \n\nOnce we build these voting reward tools for all projects on Cardano to use, every social and economic incentive is aligned for the ecosystem to come alive with renewed dynamism, transaction volume and excitement. \nThe rocket ship will take off.\n\nI see a future when every day in your Cardano wallet you will see dozens to hundreds of active votes taking place.\nI see an incredible experimentation in reward structures, some votes will have one reward, and others multiple rewards, in tokens or NFT’s, RWA’s or event tickets. \nThis is a new tool, and there will be a massive variety of how projects choose to structure their votes and rewards.\n\nI see a future where ‘Flash-votes’ become a thing, a project announces a vote at short notice, and the voting window closes in a few hours, so only those who are quick enough to vote will be in the draw; driving attention and engagement. \n\nI see a future where the launch of new tokens comes with the sale of  ‘multiplier NFT’s’. These are NFT’s that 10x 100x your chances of winning in that projects’ votes. This will give projects launching on Cardano a whole new revenue stream that is not available on other chains. No longer will they have to sell their own tokens and crash their own price to get the funds for further development, they can now sell ‘multiplier NFT’s’, only on Cardano.\n\nImagine millions of new wallets being created.\nAs people new to crypto will finally be able to take part and do something, without the barriers of learning about ‘crypto-farming’, ‘impermanent loss’, or trusting their life savings to an unknown de-fi start up. \n\nImagine millions using Cardano for voting every day. \nSo when it comes time to run national infrastructure we are already trusted, with a verifiable track record of millions of provably secure governance votes, and rewards.\n\nImagine millions opening their wallet every day.\nSo when it comes time to integrate decentralised AI and social media we already have our target audience, in the place we need them to be. \nThe Cardano wallet will be their new internet browser. \n\nVoting rewards on Cardano is a behavioural incentive system. \n\nthat can remove the traditional barriers to participation in crypto, and this is what turns governance from a quirky ugly duckling into the fuel for a rocket ship. \n\nVoting rewards are the fuel, and I say we fire up this rocket ship, \n\nbecause I want to know if there are pyramids on Mars. \n\n\n\nps. In the future, when we hold a governance vote, we could do quite a large reward structure, and use it as the basis for a huge ecosystem marketing push...\n"
+  },
+  "hashAlgorithm": "blake2b-256"
+}
